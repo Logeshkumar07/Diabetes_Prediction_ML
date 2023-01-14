@@ -1,0 +1,47 @@
+*numpy we use arraylist
+*arraylist-> 50 times faster than normal list 
+*when data similar execution time reduced and faster execution
+*everything is in matrix format
+pip install juypter notebook
+pip install pandas
+pip install numpy
+pip install seaborn
+jupyter notebook
+
+create a dummy folder as ml
+in that open ipnykernel
+
+shortcuts in jupyter
+shift +enter
+ctrl+enter
+alt+enter
+
+import numpy as np
+import seaborn as sb
+import pandas as pd
+l=[1,4,5,6,7]
+l
+2*l #double time printing list
+b=np.array(l)
+2*b #prints *2 in every element
+x=np.array([[1,2,3,4,5],[7,6,8,9,2]])
+x.shape
+x.itemsize
+x.reshape(2*5)
+x=np.array([[1,2,3],[7,6,8],[2,4,3],[3,4,5]])
+x.shape #(4,3)
+x.reshape(3,4)
+x[0:2,2:4] #slicing of matrix
+x[1:2,1:3]
+x[0,0:3]
+x[1:3,1:3]  #[row slize,column size]
+np.sqrt(x) #squareroot for particular elements in array
+np.cbrt(x)
+np.std(x)
+
+STACK:
+h-stack(horiontal stack)  #stack every row horiontally
+v-stack(vertical stack)
+
+np.hstack((x,y))
+np.vstack((x,y))
